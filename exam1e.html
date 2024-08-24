@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRCOG Part 3 Examiner UI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #case-number {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #case-content {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .accordion {
+            margin-top: 20px;
+        }
+        .accordion-item {
+            border: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+        .accordion-header {
+            background-color: #f1f1f1;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .accordion-content {
+            display: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="case-number"></div>
+    <div id="case-content"></div>
+    <div class="navigation">
+        <button id="prev-btn">&larr; Previous</button>
+        <button id="next-btn">Next &rarr;</button>
+    </div>
+    <div id="accordion" class="accordion"></div>
+
+    <script>
+        const cases = [
+            {
+                number: 1,
+                content: `
+# Station 1: Obstetric Emergency
+
+A 28-year-old woman who is 38 weeks pregnant presents with sudden onset of severe abdominal pain.
+
+## Scenario Details
+- Gravida 2, Para 1
+- Previous uncomplicated vaginal delivery
+- No significant medical history
+- Current pregnancy has been uneventful until now
+                `,
+                questions: [
+                    {
+                        question: "What are the key elements of the focused history?",
+                        answer: "- Onset, duration, and nature of pain\n- Associated symptoms (vaginal bleeding, fluid loss, fetal movements)\n- Risk factors for placental abruption or uterine rupture\n- Previous obstetric history\n- Current pregnancy details",
+                        details: "The history should aim to quickly identify potential life-threatening conditions such as placental abruption, uterine rupture, or other acute abdominal emergencies."
+                    },
+                    {
+                        question: "Outline the steps for a targeted examination.",
+                        answer: "1. Vital signs (BP, pulse, temperature)\n2. Abdominal examination (tenderness, rigidity, fetal lie)\n3. Uterine palpation (tone, tenderness)\n4. Fetal heart rate assessment\n5. Speculum examination if indicated",
+                        details: "The examination should be systematic but focused on identifying signs of fetal distress, placental abruption, or uterine rupture."
+                    },
+                    {
+                        question: "What is your differential diagnosis?",
+                        answer: "1. Placental abruption\n2. Uterine rupture\n3. Preterm labor\n4. Acute appendicitis\n5. Urinary tract infection",
+                        details: "The differential should consider both obstetric and non-obstetric causes of acute abdominal pain in pregnancy."
+                    }
+                ]
+            },
+            {
+                number: 2,
+                content: `
+# Station 2: Gynecological Counseling
+
+A 45-year-old woman presents with heavy menstrual bleeding and has been diagnosed with uterine fibroids.
+
+## Patient Details
+- Nulliparous
+- Desires future fertility
+- Hemoglobin level: 9.5 g/dL
+- Ultrasound shows multiple intramural fibroids, largest 6cm
+                `,
+                questions: [
+                    {
+                        question: "How would you explain the diagnosis to the patient?",
+                        answer: "- Define fibroids as benign growths in the uterus\n- Explain their relation to heavy bleeding and potential impact on fertility\n- Use diagrams or models to illustrate the location and size of fibroids",
+                        details: "Use clear, non-technical language and check the patient's understanding throughout the explanation."
+                    },
+                    {
+                        question: "Discuss the treatment options available for this patient.",
+                        answer: "1. Medical management (e.g., tranexamic acid, hormonal treatments)\n2. Uterine artery embolization\n3. Myomectomy (open, laparoscopic, or hysteroscopic)\n4. Hysterectomy\n5. Newer options like MRI-guided focused ultrasound",
+                        details: "Consider the patient's desire for fertility, the size and location of fibroids, and her symptoms when discussing options."
+                    },
+                    {
+                        question: "How would you address the patient's concerns about fertility and menopause?",
+                        answer: "- Discuss impact of fibroids on fertility and pregnancy outcomes\n- Explain how different treatments may affect fertility\n- Clarify that fibroids are not related to early menopause\n- Discuss age-related fertility decline and options for fertility preservation if relevant",
+                        details: "Be sensitive to the patient's concerns and provide balanced information about the risks and benefits of each approach."
+                    }
+                ]
+            },
+            // ... Add more cases here ...
+        ];
+
+        let currentCase = 0;
+
+        function updateCase() {
+            document.getElementById('case-number').textContent = `Case ${cases[currentCase].number} of ${cases.length}`;
+            document.getElementById('case-content').innerHTML = marked(cases[currentCase].content);
+            updateAccordion();
+        }
+
+        function updateAccordion() {
+            const accordion = document.getElementById('accordion');
+            accordion.innerHTML = '';
+            cases[currentCase].questions.forEach((q, index) => {
+                const item = document.createElement('div');
+                item.className = 'accordion-item';
+                item.innerHTML = `
+                    <div class="accordion-header" onclick="toggleAccordion(${index})">
+                        Question ${index + 1}: ${q.question}
+                    </div>
+                    <div class="accordion-content" id="content-${index}">
+                        <h4>Answer:</h4>
+                        ${marked(q.answer)}
+                        <h4>Details:</h4>
+                        ${marked(q.details)}
+                    </div>
+                `;
+                accordion.appendChild(item);
+            });
+        }
+
+        function toggleAccordion(index) {
+            const content = document.getElementById(`content-${index}`);
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function nextCase() {
+            if (currentCase < cases.length - 1) {
+                currentCase++;
+                updateCase();
+            }
+        }
+
+        function prevCase() {
+            if (currentCase > 0) {
+                currentCase--;
+                updateCase();
+            }
+        }
+
+        document.getElementById('next-btn').addEventListener('click', nextCase);
+        document.getElementById('prev-btn').addEventListener('click', prevCase);
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowRight') {
+                nextCase();
+            } else if (event.key === 'ArrowLeft') {
+                prevCase();
+            }
+        });
+
+        updateCase();
+    </script>
+</body>
+</html>
