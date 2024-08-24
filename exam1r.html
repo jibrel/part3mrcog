@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRCOG Part 3 Exam UI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #case-number {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #case-content {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="case-number"></div>
+    <div id="case-content"></div>
+    <div class="navigation">
+        <button id="prev-btn">&larr; Previous</button>
+        <button id="next-btn">Next &rarr;</button>
+    </div>
+
+    <script>
+        const cases = [
+            {
+                number: 1,
+                content: `
+# Station 1: Obstetric Emergency
+
+You are called to the labor ward to assess a 28-year-old woman who is 38 weeks pregnant and has sudden onset of severe abdominal pain.
+
+## Task
+- Take a focused history
+- Perform a targeted examination
+- Formulate a differential diagnosis
+- Propose an initial management plan
+                `
+            },
+            {
+                number: 2,
+                content: `
+# Station 2: Gynecological Counseling
+
+A 45-year-old woman presents with heavy menstrual bleeding and has been diagnosed with uterine fibroids.
+
+## Task
+- Explain the diagnosis to the patient
+- Discuss treatment options, including medical and surgical approaches
+- Address the patient's concerns about fertility and menopause
+                `
+            },
+            {
+                number: 3,
+                content: `
+# Station 3: Communication Skills
+
+You need to break bad news to a couple whose 20-week anomaly scan has revealed severe fetal abnormalities.
+
+## Task
+- Demonstrate appropriate communication skills
+- Provide clear and sensitive information
+- Discuss available options and support
+                `
+            },
+            {
+                number: 4,
+                content: `
+# Station 4: Clinical Governance
+
+You are asked to review a series of unexpected admissions to the neonatal unit following elective cesarean sections.
+
+## Task
+- Outline your approach to investigating this issue
+- Discuss potential causes and contributing factors
+- Propose strategies to improve patient safety
+                `
+            },
+            {
+                number: 5,
+                content: `
+# Station 5: Ethical Dilemma
+
+A 16-year-old girl requests contraception but doesn't want her parents to know.
+
+## Task
+- Discuss the ethical considerations
+- Explain the legal framework
+- Outline your approach to managing this situation
+                `
+            },
+            {
+                number: 6,
+                content: `
+# Station 6: Operative Skills
+
+You are assisting in a complicated cesarean section where the patient has had multiple previous surgeries.
+
+## Task
+- Describe your approach to entering the abdomen
+- Discuss potential complications and how to manage them
+- Outline key steps in ensuring patient safety during the procedure
+                `
+            },
+            {
+                number: 7,
+                content: `
+# Station 7: Research and Audit
+
+You are asked to design a quality improvement project to reduce the rate of third and fourth-degree perineal tears in your unit.
+
+## Task
+- Outline your approach to designing the project
+- Discuss how you would implement changes
+- Describe how you would measure the impact of your interventions
+                `
+            }
+        ];
+
+        let currentCase = 0;
+
+        function updateCase() {
+            document.getElementById('case-number').textContent = `Case ${cases[currentCase].number} of ${cases.length}`;
+            document.getElementById('case-content').innerHTML = marked(cases[currentCase].content);
+        }
+
+        function nextCase() {
+            if (currentCase < cases.length - 1) {
+                currentCase++;
+                updateCase();
+            }
+        }
+
+        function prevCase() {
+            if (currentCase > 0) {
+                currentCase--;
+                updateCase();
+            }
+        }
+
+        document.getElementById('next-btn').addEventListener('click', nextCase);
+        document.getElementById('prev-btn').addEventListener('click', prevCase);
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowRight') {
+                nextCase();
+            } else if (event.key === 'ArrowLeft') {
+                prevCase();
+            }
+        });
+
+        updateCase();
+    </script>
+</body>
+</html>
