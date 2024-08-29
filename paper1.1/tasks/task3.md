@@ -26,7 +26,7 @@ You have 10 minutes in which you should:
 - Transabdominal ultrasound scan with the patient’s verbal consent
 - Uterus contains two gestational sacs – image attached
 
-![Ultrasound Image](file-90yXQFRgQKde0U73o7pyXytV)
+![Ultrasound Image](https://jibrel.github.io/part3mrcog/assets/image1.png)
 
 - The CRL of twin 1 is 57 mm = 12 weeks, FHR – 156 bpm, with an NT of 1.8 mm = 12
 - The CRL of twin 2 is 60 mm = 12 + 6 weeks, FHR – 160 bpm, with an NT of 2.0 mm
