@@ -46,4 +46,3 @@ Familiarise yourself with the candidate’s instructions and use the questions b
 - LARC – best option – levonorgestrel (if period problems), subdermal implants, or copper IUD.
 - Depot preparation needs three monthly injections and may not be easy to administer.
 
----
