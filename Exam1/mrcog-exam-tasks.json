@@ -2,11 +2,11 @@
   "tasks": [
     {
       "title": "Task 1: Urodynamics",
-      "file": "task1-urodynamics.md"
+      "file": "tasks/task1.md"
     },
     {
       "title": "Task 2: Gynecological Oncology",
-      "file": "task2-gynecological-oncology.md"
+      "file": "tasks/task2.md"
     },
     {
       "title": "Task 3: High-Risk Obstetrics",
