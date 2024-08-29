@@ -1,5 +1,3 @@
----
-
 # Simulated Patient Information
 
 ### Patient Profile
@@ -30,5 +28,3 @@
 - Is there a permanent injury to my waterworks?
 - Should I not have a cesarean section next time?
 - Are there any drugs I can take, and will these affect breastfeeding or my baby?
-
----
