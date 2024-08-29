@@ -1,50 +1,32 @@
 {
   "tasks": [
     {
-      "title": "# Task 1: Urodynamics",
-      "instructions": "This task assesses the following clinical skills:
-
-- Patient safety
-- Communication with patients and their relatives
-- Information gathering
-- Applied clinical knowledge",
-      "case": "You are a ST5 doctor in the urogynaecology clinic. You are asked to see Amanda Scott, who is a 64-year-old woman. She has been referred by her GP with mixed urinary incontinence which has not responded to supervized pelvic floor muscle training, bladder retraining and Tolterodine. 
-
-**Patient Details:**
-- Age: 64 years
-- Parity: Para 2 with two spontaneous vaginal deliveries
-- Medical History: No significant medical or surgical history
-- Previous Examination: Did not reveal any pelvic organ prolapse
-
-A urodynamic study was performed before her clinic appointment (see Fig 19.1). Amanda wishes to know more about the urodynamic findings and management options available to her. 
-
-**Your Task:**
-You will have ten minutes for the initial discussion. Once you have finished discussion with Amanda the assessor will ask you some questions.
-
-You have 10 minutes for this task (+ 2mins initial reading time).
-
-### Tasks:
-1. Discuss urodynamic findings with Amanda
-2. Explain management options
-3. Answer assessor's questions"
+      "title": "Task 1: Urodynamics",
+      "file": "task1-urodynamics.md"
     },
     {
-      "title": "# Task 2: Gynecological Oncology",
-      "instructions": "This task evaluates your ability to:
-
-- Interpret complex clinical information
-- Formulate and communicate management plans
-- Demonstrate knowledge of current guidelines",
-      "case": "Sarah, a 55-year-old postmenopausal woman, presents with a 3-month history of postmenopausal bleeding. Her last menstrual period was 5 years ago.
-
-**Clinical Findings:**
-- Endometrial thickness on transvaginal ultrasound: 12mm
-- No obvious cervical lesions on speculum examination
-
-**Your Task:**
-1. Outline your approach to further investigation
-2. Discuss potential management options based on possible findings
-3. Explain the prognosis and follow-up plan for different scenarios"
+      "title": "Task 2: Gynecological Oncology",
+      "file": "task2-gynecological-oncology.md"
+    },
+    {
+      "title": "Task 3: High-Risk Obstetrics",
+      "file": "task3-high-risk-obstetrics.md"
+    },
+    {
+      "title": "Task 4: Reproductive Medicine",
+      "file": "task4-reproductive-medicine.md"
+    },
+    {
+      "title": "Task 5: Urogynaecology",
+      "file": "task5-urogynaecology.md"
+    },
+    {
+      "title": "Task 6: Early Pregnancy Complications",
+      "file": "task6-early-pregnancy-complications.md"
+    },
+    {
+      "title": "Task 7: Menopause Management",
+      "file": "task7-menopause-management.md"
     }
   ]
 }
