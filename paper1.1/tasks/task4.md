@@ -1,22 +1,32 @@
-# Task 4: Reproductive Medicine
-
 ## Instructions
 
-This task evaluates your ability to:
+This is a simulated patient task assessing:
 
-- Assess complex infertility cases
-- Interpret diagnostic test results
-- Formulate evidence-based treatment plans
+- Information gathering
+- Communication with patients and family
+- Communication with colleagues
+- Patient safety
+- Applied clinical knowledge
 
-## Case
+You are an ST5, working with a consultant in the general obstetrics clinic of your hospital. You are in the antenatal clinic and have been called by the midwife to see a patient who has been referred by her GP for counselling at 36 weeks of gestation.
 
-Emma (35) and James (37) have been trying to conceive for 2 years. Emma has regular menstrual cycles and James has no known medical issues.
+**Referral Letter:**
 
-**Diagnostic Results:**
-- Emma's AMH: 0.8 ng/mL
-- James's semen analysis: Volume 2.8mL, Concentration 12 million/mL, Motility 30%, Morphology 2% normal forms
+Stanhope Surgery  
+Stanhope  
+Basebrough  
+BS11 8RE  
 
-**Your Task:**
-1. Interpret the given results
-2. Suggest further investigations if needed
-3. Discuss potential treatment options and their success rates
+Dear Dr,  
+Re: Ms Bola Akintunde
+
+I will be grateful if you would be kind enough to see Ms Bola Akintunde, a 33-year-old staff nurse in her second pregnancy, for counselling about the mode of delivery. She had her first child 3 years ago in London and sustained a fourth-degree perineal tear. She would like to review her options for this pregnancy.
+
+Yours sincerely,  
+Dr Hasan Ghassan MBBS, MRCP
+
+You have 10 minutes in which you should:
+
+- Take a focused history
+- Counsel the patient
+- Answer any questions she may have

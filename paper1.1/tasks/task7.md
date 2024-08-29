@@ -1,23 +1,32 @@
-# Task 7: Menopause Management
-
 ## Instructions
 
-This station assesses your ability to:
+This is a structured discussion assessing:
 
-- Evaluate menopausal symptoms
-- Discuss hormone replacement therapy (HRT) options
-- Communicate risks and benefits effectively
+- Information gathering
+- Communication with patients and families
+- Communication with colleagues
+- Patient safety
+- Applied clinical knowledge
 
-## Case
+You are an ST5 with your consultant in the clinic. He has asked you to review a letter from the GP and come and discuss the patient with him. The examiner has four questions to structure the discussion around the management of the patient. The letter from the GP is given below.
 
-Janet, a 52-year-old woman, presents with severe menopausal symptoms (hot flushes, night sweats, mood changes) affecting her quality of life. She stopped having periods 8 months ago.
+**Referral Letter:**
 
-**Medical History:**
-- BMI: 28
-- Smoker: 10 cigarettes/day
-- Family history: Mother had breast cancer at age 60
+The Hillton-on-Lyme Surgery  
+Hillton-on-Lyme  
+Sutherfield Road  
+HL8P34  
 
-**Your Task:**
-1. Assess Janet's suitability for HRT
-2. Discuss the risks and benefits of HRT in her case
-3. Outline alternative management options for her symptoms
+Dear Mr Staycliffe,  
+Re: Miss Yvonne Sutherland aged 18 years
+
+I would be grateful if you could see this 18-year-old who came to see me with her caregiver requesting contraception. She has learning disabilities, and the caregiver was very insistent that I prescribe contraception for her. I did not feel competent to deal with this and hope that you would be able to provide appropriate advice and recommendation.
+
+Yours sincerely,  
+Dr Claire Thorpe MBBS, MRCGP, DRCOG
+
+You have 10 minutes in which you should:
+
+- Take a focused history
+- Discuss her contraceptive needs
+- Answer any questions that may arise from the consultation
