@@ -2,62 +2,49 @@
   "tasks": [
     {
       "title": "# Task 1: Urodynamics",
-      "instructions": 'This task assesses the following clinical skills:
-      
-      - Patient safety
-      - Communication with patients and their relatives
-      - Information gathering
-      - Applied clinical knowledge',
-      "case": 'You are a ST5 doctor in the urogynaecology clinic. You are asked to see Amanda Scott, who is a 64-year-old woman. She has been referred by her GP with mixed urinary incontinence which has not responded to supervized pelvic floor muscle training, bladder retraining and Tolterodine. 
-      
-      **Patient Details:**
-      - Age: 64 years
-      - Parity: Para 2 with two spontaneous vaginal deliveries
-      - Medical History: No significant medical or surgical history
-      - Previous Examination: Did not reveal any pelvic organ prolapse
-      
-      A urodynamic study was performed before her clinic appointment (see Fig 19.1). Amanda wishes to know more about the urodynamic findings and management options available to her. 
-      
-      **Your Task:**
-      
-      You will have ten minutes for the initial discussion. Once you have finished discussion with Amanda the assessor will ask you some questions.
-      
-      You have 10 minutes for this task (+ 2mins initial reading time).
-      
-      ### Tasks:
-      1. Discuss urodynamic findings with Amanda
-      2. Explain management options
-      3. Answer assessor's questions'
+      "instructions": "This task assesses the following clinical skills:
+
+- Patient safety
+- Communication with patients and their relatives
+- Information gathering
+- Applied clinical knowledge",
+      "case": "You are a ST5 doctor in the urogynaecology clinic. You are asked to see Amanda Scott, who is a 64-year-old woman. She has been referred by her GP with mixed urinary incontinence which has not responded to supervized pelvic floor muscle training, bladder retraining and Tolterodine. 
+
+**Patient Details:**
+- Age: 64 years
+- Parity: Para 2 with two spontaneous vaginal deliveries
+- Medical History: No significant medical or surgical history
+- Previous Examination: Did not reveal any pelvic organ prolapse
+
+A urodynamic study was performed before her clinic appointment (see Fig 19.1). Amanda wishes to know more about the urodynamic findings and management options available to her. 
+
+**Your Task:**
+You will have ten minutes for the initial discussion. Once you have finished discussion with Amanda the assessor will ask you some questions.
+
+You have 10 minutes for this task (+ 2mins initial reading time).
+
+### Tasks:
+1. Discuss urodynamic findings with Amanda
+2. Explain management options
+3. Answer assessor's questions"
     },
     {
       "title": "# Task 2: Gynecological Oncology",
-      "instructions": "This task evaluates your ability to:\n\n- Interpret complex clinical information\n- Formulate and communicate management plans\n- Demonstrate knowledge of current guidelines",
-      "case": "Sarah, a 55-year-old postmenopausal woman, presents with a 3-month history of postmenopausal bleeding. Her last menstrual period was 5 years ago.\n\n**Clinical Findings:**\n- Endometrial thickness on transvaginal ultrasound: 12mm\n- No obvious cervical lesions on speculum examination\n\n**Your Task:**\n1. Outline your approach to further investigation\n2. Discuss potential management options based on possible findings\n3. Explain the prognosis and follow-up plan for different scenarios"
-    },
-    {
-      "title": "# Task 3: High-Risk Obstetrics",
-      "instructions": "This station assesses your ability to:\n\n- Manage complex obstetric cases\n- Communicate effectively with patients about risks\n- Demonstrate knowledge of current guidelines in high-risk pregnancy",
-      "case": "Lisa, a 32-year-old woman (G2P1), presents at 28 weeks gestation with severe pre-eclampsia. Her previous pregnancy was complicated by late-onset pre-eclampsia at 37 weeks.\n\n**Current Vital Signs:**\n- BP: 160/100 mmHg\n- Proteinuria: 3+ on dipstick\n- Complains of headache and visual disturbances\n\n**Your Task:**\n1. Outline your immediate management plan\n2. Discuss the risks and benefits of expectant management vs. delivery\n3. Explain the long-term implications and future pregnancy counseling"
-    },
-    {
-      "title": "# Task 4: Reproductive Medicine",
-      "instructions": "This task evaluates your ability to:\n\n- Assess complex infertility cases\n- Interpret diagnostic test results\n- Formulate evidence-based treatment plans",
-      "case": "Emma (35) and James (37) have been trying to conceive for 2 years. Emma has regular menstrual cycles and James has no known medical issues.\n\n**Diagnostic Results:**\n- Emma's AMH: 0.8 ng/mL\n- James's semen analysis: Volume 2.8mL, Concentration 12 million/mL, Motility 30%, Morphology 2% normal forms\n\n**Your Task:**\n1. Interpret the given results\n2. Suggest further investigations if needed\n3. Discuss potential treatment options and their success rates"
-    },
-    {
-      "title": "# Task 5: Urogynaecology",
-      "instructions": "This station assesses your ability to:\n\n- Evaluate pelvic organ prolapse\n- Discuss conservative and surgical management options\n- Communicate effectively about sensitive topics",
-      "case": "Margaret, a 68-year-old woman, presents with a sensation of 'something coming down' and difficulty emptying her bladder. She is sexually active and wants to maintain this.\n\n**Examination Findings:**\n- Anterior vaginal wall prolapse (Ba +1)\n- Apical prolapse (C -2)\n- Posterior vaginal wall prolapse (Bp -1)\n\n**Your Task:**\n1. Explain the examination findings to Margaret\n2. Discuss conservative management options\n3. Outline surgical options, including their risks and benefits"
-    },
-    {
-      "title": "# Task 6: Early Pregnancy Complications",
-      "instructions": "This task evaluates your ability to:\n\n- Manage early pregnancy emergencies\n- Interpret ultrasound findings\n- Communicate sensitively in emotionally charged situations",
-      "case": "Alicia, a 29-year-old woman (G3P1), presents to the Early Pregnancy Unit at 7 weeks gestation with light vaginal bleeding and left iliac fossa pain. She has a history of right salpingectomy for ectopic pregnancy 2 years ago.\n\n**Ultrasound Findings:**\n- Empty uterus\n- Left adnexal mass 3cm with peripheral vascularity\n- Moderate free fluid in pouch of Douglas\n\n**Your Task:**\n1. Interpret the ultrasound findings\n2. Outline your management plan\n3. Discuss future fertility implications and contraceptive options"
-    },
-    {
-      "title": "# Task 7: Menopause Management",
-      "instructions": "This station assesses your ability to:\n\n- Evaluate menopausal symptoms\n- Discuss hormone replacement therapy (HRT) options\n- Communicate risks and benefits effectively",
-      "case": "Janet, a 52-year-old woman, presents with severe menopausal symptoms (hot flushes, night sweats, mood changes) affecting her quality of life. She stopped having periods 8 months ago.\n\n**Medical History:**\n- BMI: 28\n- Smoker: 10 cigarettes/day\n- Family history: Mother had breast cancer at age 60\n\n**Your Task:**\n1. Assess Janet's suitability for HRT\n2. Discuss the risks and benefits of HRT in her case\n3. Outline alternative management options for her symptoms"
+      "instructions": "This task evaluates your ability to:
+
+- Interpret complex clinical information
+- Formulate and communicate management plans
+- Demonstrate knowledge of current guidelines",
+      "case": "Sarah, a 55-year-old postmenopausal woman, presents with a 3-month history of postmenopausal bleeding. Her last menstrual period was 5 years ago.
+
+**Clinical Findings:**
+- Endometrial thickness on transvaginal ultrasound: 12mm
+- No obvious cervical lesions on speculum examination
+
+**Your Task:**
+1. Outline your approach to further investigation
+2. Discuss potential management options based on possible findings
+3. Explain the prognosis and follow-up plan for different scenarios"
     }
   ]
 }
