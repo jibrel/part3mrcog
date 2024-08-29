@@ -1,4 +1,4 @@
----
+
 
 # Tips for the Candidate at This Station
 
@@ -10,4 +10,4 @@
 6. Inform the pediatrician if meconium, preterm, or abnormal CTG or emergency CS occurs.
 7. Prepare the patient for CS; this is the responsibility of the midwife.
 
----
+

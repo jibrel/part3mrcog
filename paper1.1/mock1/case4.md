@@ -1,4 +1,3 @@
----
 
 # Simulated Patient Information
 
@@ -26,4 +25,4 @@
 - Would you recommend a cesarean section (CS)?
 - What steps can be taken to reduce the chances of a tear if I try for a vaginal delivery?
 
----
+

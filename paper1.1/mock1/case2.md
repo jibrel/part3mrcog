@@ -1,4 +1,4 @@
----
+
 
 # Simulated Patient Information
 
@@ -30,7 +30,7 @@
 - Concerns about age and its impact on pregnancy.
 - Questions about the need for a cesarean section.
 
----
+
 
 # Lay Examiner’s Instructions
 
@@ -46,4 +46,4 @@
 - Discuss monitoring of both mother and baby, including delivery timing and postpartum care.
 - Ensure the patient is satisfied with the management plan and all questions are answered.
 
----
+
