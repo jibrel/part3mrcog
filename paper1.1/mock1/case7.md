@@ -1,5 +1,3 @@
----
-
 # Examiner’s Instructions
 
 Familiarise yourself with the candidate’s instructions and use the questions below to structure a discussion on the management of the patient. You should guide the candidate with respect to time management.
