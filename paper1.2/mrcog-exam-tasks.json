@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "title": "Task 1",
+      "file": "tasks/task1.md"
+    },
+    {
+      "title": "Task 2: Gynecological Oncology",
+      "file": "tasks/task2.md"
+    },
+    {
+      "title": "Task 3: High-Risk Obstetrics",
+      "file": "tasks/task3.md"
+    },
+    {
+      "title": "Task 4: Reproductive Medicine",
+      "file": "tasks/task4.md"
+    },
+    {
+      "title": "Task 5: Urogynaecology",
+      "file": "tasks/task5.md"
+    },
+    {
+      "title": "Task 6: Early Pregnancy Complications",
+      "file": "tasks/task6.md"
+    },
+    {
+      "title": "Task 7: Menopause Management",
+      "file": "tasks/task7.md"
+    }
+  ]
+}

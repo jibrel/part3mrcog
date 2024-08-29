@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRCOG Part 3 Exam UI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #case-number {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #case-content {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="case-number"></div>
+    <div id="case-content"></div>
+    <div class="navigation">
+        <button id="prev-btn">&larr; Previous</button>
+        <button id="next-btn">Next &rarr;</button>
+    </div>
+
+    <script>
+        let cases = [];
+        let currentCase = 0;
+
+        // Load exam data from external JSON file
+        fetch('exam_data.json')
+            .then(response => response.json())
+            .then(data => {
+                cases = data.cases;
+                loadMarkdownContent();
+            })
+            .catch(error => console.error('Error loading exam data:', error));
+
+        function loadMarkdownContent() {
+            const loadPromises = cases.map(caseData => 
+                fetch(caseData.contentFile)
+                    .then(response => response.text())
+                    .then(content => {
+                        caseData.content = content;
+                    })
+            );
+
+            Promise.all(loadPromises).then(() => {
+                updateCase();
+            });
+        }
+
+        function updateCase() {
+            document.getElementById('case-number').textContent = `Case ${cases[currentCase].number} of ${cases.length}`;
+            document.getElementById('case-content').innerHTML = marked(cases[currentCase].content);
+        }
+
+        function nextCase() {
+            if (currentCase < cases.length - 1) {
+                currentCase++;
+                updateCase();
+            }
+        }
+
+        function prevCase() {
+            if (currentCase > 0) {
+                currentCase--;
+                updateCase();
+            }
+        }
+
+        document.getElementById('next-btn').addEventListener('click', nextCase);
+        document.getElementById('prev-btn').addEventListener('click', prevCase);
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowRight') {
+                nextCase();
+            } else if (event.key === 'ArrowLeft') {
+                prevCase();
+            }
+        });
+    </script>
+</body>
+</html>
