@@ -1,5 +1,3 @@
----
-
 # Simulated Patient Information
 
 ### Patient Profile
@@ -25,5 +23,3 @@
 - This baby seems bigger than my daughter; is it wise to attempt a vaginal delivery?
 - Would you recommend a cesarean section (CS)?
 - What steps can be taken to reduce the chances of a tear if I try for a vaginal delivery?
-
----

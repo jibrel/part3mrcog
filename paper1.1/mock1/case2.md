@@ -1,5 +1,3 @@
----
-
 # Simulated Patient Information
 
 ### Patient Profile
@@ -45,5 +43,3 @@
 - Explain the need for combined medical care with a physician.
 - Discuss monitoring of both mother and baby, including delivery timing and postpartum care.
 - Ensure the patient is satisfied with the management plan and all questions are answered.
-
----
