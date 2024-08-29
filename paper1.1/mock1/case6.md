@@ -1,5 +1,3 @@
----
-
 # Tips for the Candidate at This Station
 
 1. Do not read the information for each room aloud to the examiner.
@@ -9,5 +7,3 @@
 5. Doctor to see – is either the junior trainee, yourself, or the consultant.
 6. Inform the pediatrician if meconium, preterm, or abnormal CTG or emergency CS occurs.
 7. Prepare the patient for CS; this is the responsibility of the midwife.
-
----
