@@ -1,9 +1,15 @@
-# Tips for the Candidate at This Station
+## Simulated Patient Instructions
 
-1. Do not read the information for each room aloud to the examiner.
-2. Where the action is urgent, if the consultant is around, it should be either yourself or the consultant.
-3. For each room, think thoroughly and logically – history, examination, investigations (including CTG and FBS), and the decision of delivery.
-4. Cannulation for high-risk women (e.g., VBAC, grand multipara, obese, twins, previous PPH, polyhydramnios, and anemia, for CS).
-5. Doctor to see – is either the junior trainee, yourself, or the consultant.
-6. Inform the pediatrician if meconium, preterm, or abnormal CTG or emergency CS occurs.
-7. Prepare the patient for CS; this is the responsibility of the midwife.
+You are Anne Holmes, a 28-year-old actress who has been trying desperately for a baby for the past 2 years. It has become the primary focus of your life. You and your husband have been having unprotected sexual intercourse three to four times per week. You have had irregular periods since you stopped taking the combined oral contraceptive pill when you started trying to conceive. You have around five periods per year, and each one is very light. Your GP referred you to the infertility clinic after you saw her 4 months ago.
+
+When told that you have polycystic ovarian syndrome, you are surprised as you thought that this was only a condition that obese women get. You do not know the scientific background of the condition and want to understand it and ask for an explanation from the candidate.
+
+If not covered by the candidate, questions that you could ask include:
+
+- What is polycystic ovarian syndrome?
+- How does PCOS affect fertility?
+- Can I get pregnant without any treatment?
+- I am not obese, so why do I have the condition?
+- Why do I need to lose weight?
+- How long will it take to get pregnant with the medical treatment?
+- What will happen next if I do not get pregnant from the medical treatment?

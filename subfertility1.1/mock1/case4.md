@@ -1,25 +1,29 @@
-# Simulated Patient Information
+### Instructions for Assessor
 
-### Patient Profile
+This clinical assessment task assesses the candidate's ability to explain in a logical, non-patronizing manner, the condition of PCOS, its long-term implications, and the positive impact of lifestyle modification.
 
-**Name:** Ms. Bola Akintunde  
-**Age:** 33  
-**Gender:** Female  
-**Occupation:** Staff Nurse (Male Adult Ward)  
-**Marital Status:** Lives with partner Biodun, a 40-year-old GP  
-**Children:** One 3-year-old daughter
+- If the candidate starts to skirt around the problem, the role player will interrupt. This clinical assessment task also assesses the candidate's ability to deal with such a scenario.
 
-### Medical History
 
-- **Pregnancy History:** Currently 34 weeks pregnant. Pregnancy has been uncomplicated so far.
-- **Previous Delivery:** Last delivery was very difficult. Induced with prostaglandin pessaries, labor lasted 10 hours, had three pessaries, waters were broken, and oxytocin drip started 4 hours later. Progressed to full dilation 6 hours after, had an epidural.
-- **Delivery Complications:** Delivered a baby weighing 3,500 g after 3 hours of pushing. Sustained a fourth-degree tear, which was repaired in theater under epidural anesthesia. Given antibiotics and stool softeners. Discharged after 4 days, followed up after 6 weeks.
-- **Current Status:** Well, no pain or discomfort during sexual intercourse. No issues with leakage of gas, urine, or feces. No current medications or known allergies.
-- **Concerns:** Very frightened of a repeat experience of a fourth-degree tear and wants to discuss options for delivery.
+### Instructions for Role Player
 
-### Patient's Concerns
+You are Francesca Bultorpe, a 32-year-old, working as a prison guard.
 
-- What are the chances of this type of tear happening again?
-- This baby seems bigger than my daughter; is it wise to attempt a vaginal delivery?
-- Would you recommend a cesarean section (CS)?
-- What steps can be taken to reduce the chances of a tear if I try for a vaginal delivery?
+- You are in a same-sex relationship. You have been with your partner for the last seven years. Your partner is slim.
+- You have always been a big girl. Both your mother and sister are big as well. Your father died of a heart attack when you were nine years old.
+- You have suffered with heavy and irregular periods which have now been controlled with a progesterone medicated coil. You have excess facial and lower abdominal hair.
+- You have been told to reduce weight, but do not understand what the fuss is all about. In your job, it is not always bad to appear big. If at all you and your partner decide to have a baby, it will be her becoming pregnant as she is a teacher and has a regular nine to five job.
+- Yes, you are bothered by the excess hair, but do not see how decreasing weight is going to affect that.
+
+#### Temperament:
+You are generally calm but you are an impatient person and do not like conversations where people beat around the bush rather than come to the point. You are likely to interrupt the conversation if that happens.
+
+#### Ideas:
+You just want your consultant and his team to treat the periods, which they have, and leave you alone. You cannot see how having PCOS is going to have any impact on your health.
+
+#### Concerns:
+- You are concerned that every visit, you are lectured on the importance of weight loss. You cannot see how it is going to reduce your excess facial hair. You also feel that this condition of PCOS is making you put on weight.
+- You are concerned that you will be made to listen to another session on how to reduce your weight.
+
+#### Expectations:
+Your expectation is that the doctor you are about to talk to, talks to the point, and if wants to encourage weight reduction, motivates you by explaining the relevance.
