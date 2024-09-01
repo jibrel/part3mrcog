@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "title": "Task 1",
+      "file": "tasks/task1.md"
+    },
+    {
+      "title": "Task 2",
+      "file": "tasks/task2.md"
+    },
+    {
+      "title": "Task 3",
+      "file": "tasks/task3.md"
+    },
+    {
+      "title": "Task 4",
+      "file": "tasks/task4.md"
+    },
+    {
+      "title": "Task 5",
+      "file": "tasks/task5.md"
+    },
+    {
+      "title": "Task 6",
+      "file": "tasks/task6.md"
+    },
+    {
+      "title": "Task 7",
+      "file": "tasks/task7.md"
+    }
+  ]
+}
